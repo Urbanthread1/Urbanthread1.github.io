@@ -1,0 +1,113 @@
+    /* Kleuren uit het kleurthema van de opdracht */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    body {
+      font-family: sans-serif;
+      background-color: #1A1A2E;
+      color: #F5F5F5;
+    }
+ 
+    /* Navigatiebalk */
+    nav {
+      background-color: #16213E;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ 
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #E94560;
+      text-decoration: none;
+    }
+ 
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+ 
+    nav ul a {
+      color: #F5F5F5;
+      text-decoration: none;
+      font-size: 15px;
+    }
+ 
+    nav ul a:hover {
+      color: #E94560;
+    }
+ 
+    /* Hoofdinhoud */
+    main {
+      max-width: 640px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+ 
+    h1 {
+      font-size: 22px;
+      margin-bottom: 1.5rem;
+      color: #F5F5F5;
+    }
+ 
+    /* Productrij */
+    .rij {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #2a2a4a;
+      font-size: 15px;
+    }
+ 
+    .verwijder {
+      background: none;
+      border: none;
+      color: #aaa;
+      font-size: 18px;
+      cursor: pointer;
+    }
+ 
+    .verwijder:hover {
+      color: #E94560;
+    }
+ 
+    /* Totaal */
+    .totaal {
+      display: flex;
+      justify-content: space-between;
+      font-size: 17px;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 2px solid #E94560;
+    }
+ 
+    /* Betaalknop */
+    .betaal-knop {
+      display: block;
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 12px;
+      background-color: #E94560;
+      color: #F5F5F5;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+ 
+    .betaal-knop:hover {
+      background-color: #c73652;
+    }
+ 
+    /* Footer */
+    footer {
+      background-color: #16213E;
+      color: #aaa;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+      font-size: 13px;    }
