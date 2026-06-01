@@ -1,4 +1,4 @@
-    /* Kleuren uit het kleurthema van de opdracht */
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
  
     body {
@@ -10,7 +10,7 @@
     /* Navigatiebalk */
     nav {
       background-color: #16213E;
-      padding: 1rem 2rem;
+      padding: 16px 32px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -26,7 +26,7 @@
     nav ul {
       list-style: none;
       display: flex;
-      gap: 1.5rem;
+      gap: 24px;
     }
  
     nav ul a {
@@ -42,13 +42,13 @@
     /* Hoofdinhoud */
     main {
       max-width: 640px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      margin: 32px auto;
+      padding: 0 16px;
     }
  
     h1 {
       font-size: 22px;
-      margin-bottom: 1.5rem;
+      margin-bottom: 24px;
       color: #F5F5F5;
     }
  
@@ -80,8 +80,8 @@
       justify-content: space-between;
       font-size: 17px;
       font-weight: bold;
-      margin-top: 1.5rem;
-      padding-top: 1rem;
+      margin-top: 24px;
+      padding-top: 16px;
       border-top: 2px solid #E94560;
     }
  
@@ -89,7 +89,7 @@
     .betaal-knop {
       display: block;
       width: 100%;
-      margin-top: 1.5rem;
+      margin-top: 24rem;
       padding: 12px;
       background-color: #E94560;
       color: #F5F5F5;
@@ -108,6 +108,9 @@
       background-color: #16213E;
       color: #aaa;
       text-align: center;
-      padding: 1.5rem;
-      margin-top: 4rem;
-      font-size: 13px;    }
+      font-size: 13px; 
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 15px;
+}  
