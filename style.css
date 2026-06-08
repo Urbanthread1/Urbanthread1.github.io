@@ -113,10 +113,20 @@
       padding: 15px;
 }  
 
-.product-afbeelding {
-  display: flex;
-  justify-content:space-evenly;
-  margin-bottom: 12px;
-  width: 80px;
-  height: 250px;
+.product {
+  width: 30%;
+}
+
+.product-afbeelding, .product-afbeelding img {
+  width: 100%;
+}
+
+.producten-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
